@@ -1,0 +1,6 @@
+INCLUDE_DIRECTORIES(".")
+ADD_LIBRARY(PolarSSL STATIC
+base64.c 
+sha1.c 
+md5.c 
+)
