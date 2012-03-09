@@ -180,6 +180,7 @@ KinectHttpServer::KinectHttpServer(int port_,int ws_port, xn::Context context_)
     wsServer->run();
     userDetector = new UserDetector(wsServer,context);
     handDetector = new HandDetector(wsServer,context);
+    frontPoseDetector = new FrontPoseDetector(wsServer, context);
     
     
 }
@@ -193,6 +194,8 @@ void KinectHttpServer::updateData(){
     pointCloud_->update();
     calibratedUsers_->update();
     detectedUsers_->update();
+    
+    frontPoseDetector->detect();
 }
 
 

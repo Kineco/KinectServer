@@ -49,7 +49,8 @@ ADD_EXECUTABLE(KinectServer
     DepthParam.cpp
     DetectedUsers.cpp
     HandDetector.cpp
-    InterfacePoseDetector.cpp
+    AbstractPoseDetector.cpp
+    FrontPoseDetector.cpp
     KinectHttpServer.cpp
     PointCloud.cpp
     PoseDetector.cpp

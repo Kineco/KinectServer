@@ -28,6 +28,7 @@
 #include "WebSocket/Server.h"
 #include "HandDetector.h"
 #include "UserDetector.h"
+#include "FrontPoseDetector.h"
 
 
 typedef std::vector<float> depth_hist;
@@ -95,6 +96,7 @@ private:
     Server *wsServer;
     UserDetector *userDetector;
     HandDetector *handDetector;
+    FrontPoseDetector *frontPoseDetector;
     
     
     struct MHD_Daemon *daemon;
