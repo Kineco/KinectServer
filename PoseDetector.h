@@ -4,7 +4,7 @@
 #include "InterfacePoseDetector.h"
 #include "AbstractUserDetector.h"
 
-#include "Websocket/Server.h"
+#include "WebSocket/Server.h"
 
 #include <XnCppWrapper.h>
 #include "Vector3D.hpp"

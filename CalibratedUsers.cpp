@@ -65,6 +65,7 @@ Json::Value CalibratedUsers::getSkeletonById(const int id_){
         user["eJoint"][count]["cordinate"]["x"] = position.X;
         user["eJoint"][count]["cordinate"]["y"] = position.Y;
         user["eJoint"][count]["cordinate"]["z"] = position.Z;
+	count++;
     }
     kineco["user"] = user;
     root["Kineco"] = kineco;

@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include "AbstractUserDetector.h"
-#include "Websocket/Server.h"
+#include "WebSocket/Server.h"
 
 class UserDetector:public AbstractUserDetector {
 private:    

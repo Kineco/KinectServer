@@ -3,7 +3,7 @@
 #include <XnCppWrapper.h>
 
 
-#include "Websocket/Server.h"
+#include "WebSocket/Server.h"
 
 
 class HandDetector {

@@ -25,7 +25,7 @@
 #include "DetectedUsers.h"
 #include "RequestHandler.h"
 
-#include "Websocket/Server.h"
+#include "WebSocket/Server.h"
 #include "HandDetector.h"
 #include "UserDetector.h"
 
