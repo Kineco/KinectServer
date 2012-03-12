@@ -9,7 +9,7 @@ UserDetector::UserDetector(Server *s,xn::Context &context)
 :AbstractUserDetector(context)
 {
     s_ = s;
-    ver_ = 1.0;
+    ver_ = "1.0";
     type_ = "user";
     
 }
@@ -52,7 +52,7 @@ void UserDetector::onCalibrationEnd(xn::SkeletonCapability& cap, XnUserID userID
     AbstractUserDetector::onCalibrationEnd(cap,userID, success);
     if(success)
     {
-        sendUserData("caribration", userID);
+        sendUserData("calibration", userID);
     }
 }
 

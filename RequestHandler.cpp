@@ -216,7 +216,7 @@ void RequestHandler::createResponse()
         
     }
     else{
-        throw std::runtime_error("BAD REQUEST");
+        throw std::runtime_error("BAD REQUEST ");
     }
 }
 
